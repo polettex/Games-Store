@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.game-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.game-info img {
+    max-width: 300px;
+    height: auto;
+    margin: 1rem;
+}
+
+.characters {
+    margin: 1rem;
+}
+
+.characters ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.video {
+    text-align: center;
+    margin: 1rem;
+}
+
+@media (max-width: 600px) {
+    .game-info {
+        flex-direction: column;
+    }
+}
