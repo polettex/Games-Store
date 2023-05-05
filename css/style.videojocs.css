@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 header {
-    background-image: url(../img/header.jpg);
+    position: relative;
+    background-image: url(../../img/header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 1;
 }
 
 .game-info {
@@ -43,6 +55,33 @@ header {
 .video {
     text-align: center;
     margin: 1rem;
+}
+
+.boton-atras {
+    display: inline-block;
+    background-color: #ffffff7a;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.boton-atras:hover {
+    background-color: #ffffffb2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 600px) {

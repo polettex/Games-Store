@@ -32,19 +32,20 @@ header {
     flex-grow: 1;
 }
 
-.producte, .producto {
+.producte {
     background-color: #f1f1f1;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0;
     width: 300px;
+    height: 520px;
     text-align: center;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.producte img, .producto img {
+.producte img {
     max-width: 100%;
-    height: auto;
+    height: 400px;
     margin-bottom: 1em;
 }
 
@@ -56,15 +57,6 @@ footer {
     position: static;
     bottom: 0;
     width: 100%;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: none;
 }
 
 a{
